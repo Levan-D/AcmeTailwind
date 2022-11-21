@@ -60,22 +60,22 @@ const Testimonials = () => {
               <div className="absolute backface-hidden border-2 w-full h-full rounded-3xl">
                 <img
                   src={test.img}
-                  className="w-full h-full rounded-3xl object-fill"
+                  className="w-full h-full rounded-3xl object-cover md:object-fill  "
                 />
               </div>
               <div className="absolute my-rotate-y-180 backface-hidden w-full h-full bg-gray-100 overflow-hidden rounded-3xl">
                 <div className="text-center flex flex-col items-center justify-center h-full bg-slate-800   ">
                   <blockquote className=" pl-14 pr-8 py-12 rounded-3xl relative">
-                    <p className="text-2xl sm:text3xl text-left mt-2 text-white before:content-['\201C'] before:absolute before:top-2 before:left-0 before:text-9xl   before:text-blue-400  after:text-blue-400 before:transform before:translate-x-2 before:translate-y-2 after:content-['\201D'] after:absolute after:bottom-8 after:right-4 after:text-9xl after:transform after:translate-x-2 after:translate-y-2">
+                    <p className="text-base sm:text3xl text-left mt-2 text-white before:content-['\201C'] before:absolute before:top-2 before:left-0 before:text-9xl   before:text-blue-400  after:text-blue-400 before:transform before:translate-x-2 before:translate-y-2 after:content-['\201D'] after:absolute after:bottom-8 after:right-4 after:text-9xl after:transform after:translate-x-2 after:translate-y-2">
                       {test.desc}
                     </p>
-                    <figcaption className="italic text-xl sm:text-2xl text-right mt-2 text-ACMEWhite pt-12">
+                    <figcaption className="italic text-sm sm:text-2xl text-right mt-2 text-ACMEWhite pt-12">
                       &#8212; {test.name}
                     </figcaption>
                   </blockquote>
                   <a
                     href="#contact"
-                    className="bg-blue-400 px-6 py-2 font-semibold text-white rounded-full absolute -bottom-20 delay-500 duration-1000 group-hover:bottom-6 scale-0 group-hover:scale-125"
+                    className="hidden sm:block bg-blue-400 px-6 py-2 font-semibold text-white rounded-full absolute -bottom-20 delay-500 duration-1000 group-hover:bottom-6 scale-0 group-hover:scale-125"
                   >
                     Contact
                   </a>
