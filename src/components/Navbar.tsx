@@ -4,7 +4,7 @@ import logo from "../assets/logo.png";
 const Navbar = () => {
   const [menuVisibility, setMenuVisibility] = useState(false);
   return (
-    <nav className=" bg-ACMERed  p-2">
+    <nav className=" bg-ACMERed  p-2  sm:scroll-smooth">
       <div className="flex justify-between max-w-4xl m-auto items-center">
         <div className=" sm:m-0  m-auto">
           <a href="#hero">
@@ -13,7 +13,7 @@ const Navbar = () => {
         </div>
         <div className=" items-center hidden sm:flex">
           <div className="mr-6 font-semibold cursor-pointer text-ACMEWhite hover:text-white hover:border-b-2">
-            <a href="#rockets">Store</a>
+            <a href="#rockets">Rockets</a>
           </div>
           <div className="mr-6 font-semibold cursor-pointer text-ACMEWhite hover:text-white hover:border-b-2">
             <a href="#testimonials">Testimonials</a>
@@ -35,7 +35,7 @@ const Navbar = () => {
       {menuVisibility && (
         <div className=" text-center ">
           <div className="m-5 font-semibold text-ACMEWhite">
-            <a href="#rockets">Store</a>
+            <a href="#rockets">Rockets</a>
           </div>
           <div className="m-5 font-semibold text-ACMEWhite">
             <a href="#testimonials">Testimonials</a>
