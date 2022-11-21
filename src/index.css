@@ -53,7 +53,7 @@
 }
 
 .open .hamburger-bottom {
-  transform: rotate(-44deg) translateY(6px) translate(-6px);
+  transform: rotate(-45deg) translateY(6px) translate(-6px);
 }
 
 :root {
