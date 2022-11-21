@@ -13,12 +13,16 @@ jobs:
       - name: git-checkout
         uses: actions/checkout@v2
 
-      - name: Install all dependencies
-        run: npm install
+       - name: Install yarn
+        run: |
+          yarn install
 
+    - name: Build services
+        run: |
+          DISABLE_ESLINT_PLUGIN=true yarn build
+          
       - name: Build
-        run: npm run build --if-present
-        CI: false
+        run: npm run build 
 
       - name: Push
         uses: s0/git-publish-subdir-action@develop
