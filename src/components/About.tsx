@@ -6,7 +6,7 @@ const About = () => {
       id="about"
       className="p-6 my-12 widescreen:section-min-height tallscreen:section-min-height pt-6 sm:pt-48"
     >
-      <h2 className="text-4xl font-bold text-center sm:text-5xl mb-6 text-white">
+      <h2 className="text-4xl font-bold text-center sm:text-5xl mb-20 text-white">
         About
       </h2>
       <p className="text-xl sm:text-2xl mb-6 max-w-3xl m-auto">
