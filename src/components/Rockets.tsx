@@ -5,7 +5,10 @@ import rocketride from "../assets/rocketride.png";
 
 const Rockets = () => {
   return (
-    <section id="rockets" className="p-6 my-12">
+    <section
+      id="rockets"
+      className="p-6 my-12 widescreen:section-min-height tallscreen:section-min-height pt-28"
+    >
       <h2 className="text-4xl font-bold text-center sm:text-5xl mb-6 text-white">
         Our <span className="text-ACMERed">Rockets</span>
       </h2>

@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .section-min-height {
+    min-height: calc(100vh - 56px);
+  }
+}
+
 :root {
   background-color: #0e0604;
   color: white;

@@ -4,7 +4,7 @@ import logo from "../assets/logo.png";
 const Navbar = () => {
   const [menuVisibility, setMenuVisibility] = useState(false);
   return (
-    <nav className=" bg-ACMERed  p-2  sm:scroll-smooth">
+    <nav className=" bg-ACMERed  p-2  sm:scroll-smooth fixed w-full z-50">
       <div className="flex justify-between max-w-4xl m-auto items-center">
         <div className=" sm:m-0  m-auto">
           <a href="#hero">

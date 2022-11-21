@@ -17,6 +17,8 @@ module.exports = {
 
       "2xl": "1536px",
       // => @media (min-width: 1536px) { ... }
+      widescreen: { raw: "(min-aspect-ratio: 3/2)" },
+      tallscreen: { raw: "(min-aspect-ratio: 1/2)" },
     },
     extend: {
       colors: {

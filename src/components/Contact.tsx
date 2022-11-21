@@ -2,7 +2,10 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <section id="contact" className="p-6 my-12">
+    <section
+      id="contact"
+      className="p-6 my-12 widescreen:section-min-height tallscreen:section-min-height pt-28"
+    >
       <h2 className="text-3xl font-bold text-center sm:text-5xl mb-6 text-white">
         Contact Us
       </h2>
