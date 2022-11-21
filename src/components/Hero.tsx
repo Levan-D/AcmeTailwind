@@ -12,7 +12,7 @@ const Hero = () => {
       <article className="sm:w-1/2">
         <h2 className="max-w-md text-4xl font-bold text-center sm:text-5xl sm:text-left ">
           We Boldy Go <span className="text-ACMERed"> Where No Rocket </span>
-          Has Gone Before...
+          Has Gone Before... amen brother
         </h2>
         <p className="max-w-md text-xl mt-4 text-center sm:text-left text-blue-300">
           We're building rockets for the next century today. From the moon to Mars,
