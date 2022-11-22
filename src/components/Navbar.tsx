@@ -27,15 +27,23 @@ const Navbar = () => {
             <a href="#contact">Contact</a>
           </div>
         </div>
-        <div
-          onClick={() => setMenuVisibility(x => !x)}
-          className="px-3  sm:hidden   block absolute  right-2 text-ACMEWhite cursor-pointer hover:text-white"
-        >
-          {menuVisibility ? <>&#10005;</> : <>&#9776;</>}
+        <div className="px-3  sm:hidden   block absolute  right-2 text-ACMEWhite cursor-pointer hover:text-white">
+          <button
+            onClick={() => {
+              setMenuVisibility(x => !x)
+            }}
+            className={` ${
+              menuVisibility ? `open` : `false`
+            }  block hamburger md:hidden focus:outline-none `}
+          >
+            <span className="hamburger-top"></span>
+            <span className="hamburger-middle"></span>
+            <span className="hamburger-bottom"></span>
+          </button>
         </div>
       </div>
       {menuVisibility && (
-        <div className=" text-center ">
+        <div className={` text-center origin-top animate-open-menu `}>
           <div
             onClick={() => setMenuVisibility(x => !x)}
             className="m-5 font-semibold text-ACMEWhite"
