@@ -66,7 +66,7 @@ const Testimonials = () => {
               <div className="absolute my-rotate-y-180 backface-hidden w-full h-full bg-gray-100 overflow-hidden rounded-3xl">
                 <div className="text-center flex flex-col items-center justify-center h-full bg-slate-800   ">
                   <blockquote className=" pl-14 pr-8 py-12 rounded-3xl relative">
-                    <p className="text-base sm:text3xl text-left mt-2 text-white before:content-['\201C'] before:absolute before:top-2 before:left-0 before:text-9xl   before:text-blue-400  after:text-blue-400 before:transform before:translate-x-2 before:translate-y-2 after:content-['\201D'] after:absolute after:bottom-8 after:right-4 after:text-9xl after:transform after:translate-x-2 after:translate-y-2">
+                    <p className="text-base sm:text-3xl text-left mt-2 text-white before:content-['\201C'] before:absolute before:top-2 before:left-0 before:text-9xl   before:text-blue-400  after:text-blue-400 before:transform before:translate-x-2 before:translate-y-2 after:content-['\201D'] after:absolute after:bottom-8 after:right-4 after:text-9xl after:transform after:translate-x-2 after:translate-y-2">
                       {test.desc}
                     </p>
                     <figcaption className="italic text-sm sm:text-2xl text-right mt-2 text-ACMEWhite pt-12">
