@@ -14,7 +14,7 @@ const Rockets = () => {
     },
     {
       title: "Adventurer",
-      desc: "Best Selling Rocketzzz!",
+      desc: "Best Selling Rocket!",
       img: rocketride,
     },
     {
